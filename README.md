@@ -12,7 +12,7 @@
 
 ## 🎥 Demo Video
 
-📹 **[Watch 1-minute demo](https://your-loom-or-youtube-link-here)**
+📹 **[Video Demo](https://www.loom.com/share/65938e89ec414e7caf735da2621723cd)**
 
 ---
 
