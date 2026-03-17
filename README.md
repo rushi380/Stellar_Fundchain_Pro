@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **[YOUR_VERCEL_URL_HERE](https://your-vercel-url.vercel.app)**
+🔗 **[Fundchain-Pro-App](stellar-fundchain-pro-app.vercel.app)**
 
 ---
 
@@ -16,28 +16,12 @@
 
 ---
 
-## 📸 Test Output
+## 📸 Test Output Screenshot
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  FundChain Pro — Test Suite (10 tests)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  ✅  1. Creates campaign with correct initial values
-  ✅  2. Trims whitespace from title and description
-  ✅  3. Throws on title shorter than 3 characters
-  ✅  4. Throws on zero or negative goal
-  ✅  5. Contribution updates raised, backers, and FCT minted
-  ✅  6. FCT reward equals XLM contributed (1:1 ratio)
-  ✅  7. Multiple backers accumulate correctly
-  ✅  8. Throws when contributing to ended campaign
-  ✅  9. XLM to stroops conversion is correct
-  ✅  10. Campaign filtering by category and search query
+<img width="1044" height="450" alt="Screenshot 2026-03-15 220528" src="https://github.com/user-attachments/assets/e2e3e491-02bc-4c93-9af9-d57b5540804e" />
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  10 passed  |  0 failed  |  10 total
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+
 
 ---
 
@@ -85,9 +69,7 @@ Backer receives 100 FCT in their wallet automatically
 | Contract | Address |
 |---|---|
 | FCToken (FCT) | `CDR76AVXWJ3UXVBC6CJEOTKFT4WZSJLL6TSITPRCOAVKIBZ57ZJ2MDRW` |
-| FundChain Pro | `REPLACE_WITH_FUNDCHAIN_CONTRACT_ID` |
-
-> Replace these after deploying with `stellar contract deploy`
+| FundChain Pro | `CDPWFGQG6MJOXJDMVP22FOCP2X5SLAUDANFTTYFRIBTNQHYRYH23CYC5` |
 
 ---
 
@@ -99,7 +81,6 @@ Backer receives 100 FCT in their wallet automatically
 | FundChain deploy | `088f7401374c344b9d35e991892196dc2a167aeed84e352c7a8fa739865f2792` |
 | set_minter call | `0d896d81fa41251ecf4694dd83ce2a067b918925bf6e5b1e083466cfa45e8cd4` |
 
-> Copy transaction hashes from Stellar Explorer after deploying
 
 ---
 
@@ -303,21 +284,7 @@ node tests/fundchain.test.js
 
 ---
 
-## 📝 Submission Checklist
 
-- [x] Public GitHub repository
-- [x] README with complete documentation
-- [x] 8+ meaningful commits
-- [x] Live demo link (Vercel)
-- [x] Mobile responsive UI
-- [x] CI/CD pipeline (GitHub Actions)
-- [x] Inter-contract call (FundChain → FCToken.mint)
-- [x] Custom token deployed (FCT — SEP-41 on Stellar)
-- [x] Contract addresses documented
-- [x] Transaction hashes documented
-- [x] 10+ tests passing
-
----
 
 ## 👤 Author
 
