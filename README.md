@@ -29,17 +29,16 @@
 
 The UI is fully responsive across all screen sizes.
 
-> **Screenshot**: Add a screenshot of the mobile view here after deployment.
+![WhatsApp Image 2026-03-18 at 10 51 33 PM](https://github.com/user-attachments/assets/896920d5-4785-4c35-a470-e8f0a6570aaa)
 
 ---
 
 ## ⚙️ CI/CD Pipeline
 
 GitHub Actions runs on every push to `main`:
-- ✅ JS test suite (10 tests)
-- ✅ Frontend build check
 
-<img width="1919" height="424" alt="Screenshot 2026-03-17 215352" src="https://github.com/user-attachments/assets/51fa9969-356a-4223-800e-9980e37f917c" />
+<img width="1919" height="842" alt="Screenshot 2026-03-18 225407" src="https://github.com/user-attachments/assets/f49008d9-6613-4fd1-a26c-b06f501eb07f" />
+
 
 ---
 
