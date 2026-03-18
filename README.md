@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **[Fundchain-Pro-App](stellar-fundchain-pro.vercel.app)**
+🔗 **(stellar-fundchain-pro.vercel.app)**
 
 ---
 
